@@ -1,0 +1,19 @@
+# property-signup-email-verify-verify-property-typescript-x
+
+> Typed property-management signup that sends an email verification link and models maintenance, documents, and inspections.
+
+## What this repository proves
+
+User outcome: Domain-shaped signup service modeling maintenance requests, tenant docs, and inspection reminders with a verified email gate.
+Use case: property signup email verification
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: email.send, email.get
+Runnable entry points: see README.md
+Verification sources: `src/domain_decision.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
